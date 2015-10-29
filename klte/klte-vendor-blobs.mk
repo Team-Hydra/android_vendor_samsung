@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/klte/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/klte/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/samsung/klte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/klte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/klte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/klte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -34,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/samsung/klte/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/klte/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/samsung/klte/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/samsung/klte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/klte/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/klte/proprietary/bin/efsks:system/bin/efsks \
@@ -49,4 +49,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/klte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/klte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/klte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+    vendor/samsung/klte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/klte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
