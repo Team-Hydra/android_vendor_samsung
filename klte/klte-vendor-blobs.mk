@@ -18,12 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte/proprietary/vendor/firmware/bcm4350_V0301.0561.hcd:system/vendor/firmware/bcm4350_V0301.0561.hcd \
     vendor/samsung/klte/proprietary/etc/clatd.conf:system/etc/clatd.conf \
     vendor/samsung/klte/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/samsung/klte/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/klte/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/samsung/klte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/klte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/samsung/klte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/klte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/klte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/klte/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/klte/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
